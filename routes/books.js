@@ -45,7 +45,7 @@ router.get("/", (req, res) => {
 /**
  * Route: /books/:Id
  * Method: GET
- * Description: Get books by their Id
+ * Description: Get all Issued Books
  * Access: Public
  * Parameters: Id
  */
@@ -148,5 +148,19 @@ router.put("/updateBook/:id", (req, res) =>{
   });
 });
 
+
+// /**
+//  * Route: /:id
+//  * Method: PUT
+//  * Description: Get all issued Books with fine
+//  * Access: Public
+//  * Parameters: Id
+//  * Data: id, name, author, genre, price, publisher
+//  */
+
+// router.get("/issued/:id", (req, res) =>{
+//   const bookWithFine = users.
+
+// })
 
 module.exports = router;
